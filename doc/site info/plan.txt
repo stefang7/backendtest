@@ -1,0 +1,53 @@
+
+1. Env.
+
+ a) code repository
+
+	Need to register to github:
+	- https://github.com/stefang7/sailo1 - front end work 
+         - read js/themes_notes.rtf to see how to change themes
+	- https://github.com/stefang7/backendtest - back end test with yii and yii docs
+    - TODO: create new repository for dev
+	
+ b) hosting
+ c) bug tracking
+
+2. Software 
+
+ a) Front-end - html, jquery, js
+ b) Back-end 
+		- php?
+			- framework: MVC? yii?
+		- debugging?
+			- xdebug?
+ c) DB
+        - mysql
+ d) web-server 
+        - apache
+
+
+3. Site overview: 
+
+ a) FE
+	- main pages
+		- welcome 
+    	- boat listings 
+    	- skipper listings
+		- boat description
+		- captain descr. 
+		- transaction page
+		- user/captain/owner admin page 
+
+ b) BE
+	- DB design / models
+		- users/owners/captains/boats/transactions
+	- controllers
+	- views
+
+
+4. Timeline
+	- Jan 18: decide prog. language/db 
+    - Jan 18: set-up hosting 
+    - Jan 16: set-up github
+	- Jan 20: set-up bug-tracking 
+    - Jan 25: basic DB + user login
