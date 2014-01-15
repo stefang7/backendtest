@@ -1,0 +1,293 @@
+2013/12/30 17:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contacts".' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('contacts')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('contacts')
+#2 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contacts')
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/site/contacts
+---
+2013/12/30 17:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contacts".' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('contacts')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('contacts')
+#2 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contacts')
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/site/contacts
+---
+2013/12/30 19:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/user
+---
+2013/12/30 19:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "file".' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('file')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/file
+---
+2013/12/30 19:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "file/create".' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('file/create')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/file/create
+---
+2013/12/30 19:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsPag".' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsPag')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/cmsPag
+---
+2013/12/30 19:40:26 [error] [php] include(defalut.php): failed to open stream: No such file or directory (/Users/Adi/Sites/yii-1.1.14.f0fee9/framework/YiiBase.php:427)
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/validators/CValidator.php(186): import()
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(287): createValidator()
+#2 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(260): CmsPage->createValidators()
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(304): CmsPage->getValidators()
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/helpers/CHtml.php(1414): CmsPage->isAttributeRequired()
+#5 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /Users/Adi/Sites/ullman1/protected/views/cmsPage/_form.php(23): CActiveForm->labelEx()
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require()
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CmsPageController->renderInternal()
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(869): CmsPageController->renderFile()
+#10 /Users/Adi/Sites/ullman1/protected/views/cmsPage/create.php(18): CmsPageController->renderPartial()
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require()
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CmsPageController->renderInternal()
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(869): CmsPageController->renderFile()
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(782): CmsPageController->renderPartial()
+#15 /Users/Adi/Sites/ullman1/protected/controllers/CmsPageController.php(79): CmsPageController->render()
+#16 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CmsPageController->actionCreate()
+#17 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CmsPageController->runAction()
+#19 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CmsPageController->filterAccessControl()
+#22 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#24 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CmsPageController->runActionWithFilters()
+#25 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CmsPageController->run()
+#26 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /Users/Adi/Sites/ullman1/index.php(13): CWebApplication->run()
+REQUEST_URI=/~Adi/ullman1/index.php/cmsPage/create
+in /Users/Adi/Sites/ullman1/protected/views/cmsPage/_form.php (23)
+in /Users/Adi/Sites/ullman1/protected/views/cmsPage/create.php (18)
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsPageController.php (79)
+2013/12/30 19:44:57 [warning] [application] Failed to set unsafe attribute "user_id" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:44:57 [warning] [application] Failed to set unsafe attribute "date_updated" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:03 [warning] [application] Failed to set unsafe attribute "user_id" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:03 [warning] [application] Failed to set unsafe attribute "date_updated" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:08 [warning] [application] Failed to set unsafe attribute "user_id" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:08 [warning] [application] Failed to set unsafe attribute "date_updated" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:16 [warning] [application] Failed to set unsafe attribute "user_id" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:16 [warning] [application] Failed to set unsafe attribute "date_updated" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:33 [warning] [application] Failed to set unsafe attribute "user_id" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:33 [warning] [application] Failed to set unsafe attribute "date_updated" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value. The SQL statement executed was: INSERT INTO `cms_file` (`name`, `type`, `size`, `description`, `date_entered`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (73)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:45:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value. The SQL statement executed was: INSERT INTO `cms_file` (`name`, `type`, `size`, `description`, `date_entered`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php(73): CActiveRecord->save()
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CmsFileController->actionCreate()
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsFile/create')
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/cmsFile/create
+HTTP_REFERER=http://localhost/~Adi/ullman1/index.php/cmsFile/create
+---
+2013/12/30 19:48:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'NOW()' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `cms_user` (`username`, `email`, `pass`, `type`, `date_entered`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsUserController.php (73)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:48:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'NOW()' for column 'date_entered' at row 1. The SQL statement executed was: INSERT INTO `cms_user` (`username`, `email`, `pass`, `type`, `date_entered`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Users/Adi/Sites/ullman1/protected/controllers/CmsUserController.php(73): CActiveRecord->save()
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CmsUserController->actionCreate()
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsUser/create')
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/cmsUser/create
+HTTP_REFERER=http://localhost/~Adi/ullman1/index.php/cmsUser/create
+---
+2013/12/30 19:49:43 [warning] [application] Failed to set unsafe attribute "date_entered" of "CmsUser".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsUserController.php (96)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:49:43 [error] [exception.CException] exception 'CException' with message 'Property "CmsUser.date_updated" is not defined.' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('date_updated')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/validators/CDefaultValueValidator.php(44): CActiveRecord->__get('date_updated')
+#2 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/validators/CValidator.php(213): CDefaultValueValidator->validateAttribute(Object(CmsUser), 'date_updated')
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(159): CValidator->validate(Object(CmsUser), NULL)
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Users/Adi/Sites/ullman1/protected/controllers/CmsUserController.php(97): CActiveRecord->save()
+#6 [internal function]: CmsUserController->actionUpdate('1')
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CmsUserController), Array)
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CmsUserController), Object(ReflectionMethod), Array)
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#16 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('update')
+#18 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsUser/update')
+#19 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/cmsUser/update/1
+HTTP_REFERER=http://localhost/~Adi/ullman1/index.php/cmsUser/update/1
+---
+2013/12/30 19:49:55 [warning] [application] Failed to set unsafe attribute "date_entered" of "CmsUser".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsUserController.php (96)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 19:49:55 [error] [exception.CException] exception 'CException' with message 'Property "CmsUser.date_updated" is not defined.' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('date_updated')
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/validators/CDefaultValueValidator.php(44): CActiveRecord->__get('date_updated')
+#2 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/validators/CValidator.php(213): CDefaultValueValidator->validateAttribute(Object(CmsUser), 'date_updated')
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(159): CValidator->validate(Object(CmsUser), NULL)
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Users/Adi/Sites/ullman1/protected/controllers/CmsUserController.php(97): CActiveRecord->save()
+#6 [internal function]: CmsUserController->actionUpdate('1')
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CmsUserController), Array)
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CmsUserController), Object(ReflectionMethod), Array)
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#16 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('update')
+#18 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsUser/update')
+#19 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/cmsUser/update/1
+HTTP_REFERER=http://localhost/~Adi/ullman1/index.php/cmsUser/update/1
+---
+2013/12/30 19:50:19 [error] [php] include(defalut.php): failed to open stream: No such file or directory (/Users/Adi/Sites/yii-1.1.14.f0fee9/framework/YiiBase.php:427)
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/validators/CValidator.php(186): import()
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(287): createValidator()
+#2 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(260): CmsPage->createValidators()
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CModel.php(304): CmsPage->getValidators()
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/helpers/CHtml.php(1414): CmsPage->isAttributeRequired()
+#5 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /Users/Adi/Sites/ullman1/protected/views/cmsPage/_form.php(23): CActiveForm->labelEx()
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require()
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CmsPageController->renderInternal()
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(869): CmsPageController->renderFile()
+#10 /Users/Adi/Sites/ullman1/protected/views/cmsPage/create.php(18): CmsPageController->renderPartial()
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require()
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CmsPageController->renderInternal()
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(869): CmsPageController->renderFile()
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(782): CmsPageController->renderPartial()
+#15 /Users/Adi/Sites/ullman1/protected/controllers/CmsPageController.php(79): CmsPageController->render()
+#16 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CmsPageController->actionCreate()
+#17 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CmsPageController->runAction()
+#19 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CmsPageController->filterAccessControl()
+#22 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#24 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CmsPageController->runActionWithFilters()
+#25 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CmsPageController->run()
+#26 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /Users/Adi/Sites/ullman1/index.php(13): CWebApplication->run()
+REQUEST_URI=/~Adi/ullman1/index.php/cmsPage/create
+in /Users/Adi/Sites/ullman1/protected/views/cmsPage/_form.php (23)
+in /Users/Adi/Sites/ullman1/protected/views/cmsPage/create.php (18)
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsPageController.php (79)
+2013/12/30 20:02:53 [warning] [application] Failed to set unsafe attribute "user_id" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 20:02:53 [warning] [application] Failed to set unsafe attribute "date_updated" of "CmsFile".
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (72)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 20:02:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value. The SQL statement executed was: INSERT INTO `cms_file` (`name`, `type`, `size`, `description`, `date_entered`) VALUES (:yp0, :yp1, :yp2, :yp3, NOW()).
+in /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php (73)
+in /Users/Adi/Sites/ullman1/index.php (13)
+2013/12/30 20:02:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value. The SQL statement executed was: INSERT INTO `cms_file` (`name`, `type`, `size`, `description`, `date_entered`) VALUES (:yp0, :yp1, :yp2, :yp3, NOW())' in /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /Users/Adi/Sites/ullman1/protected/controllers/CmsFileController.php(73): CActiveRecord->save()
+#3 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): CmsFileController->actionCreate()
+#4 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsFile/create')
+#14 /Users/Adi/Sites/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/Adi/Sites/ullman1/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/~Adi/ullman1/index.php/cmsFile/create
+HTTP_REFERER=http://localhost/~Adi/ullman1/index.php/cmsFile/create
+---
