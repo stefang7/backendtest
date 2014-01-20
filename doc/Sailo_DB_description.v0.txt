@@ -1,0 +1,106 @@
+SAILO - test database
+=====================
+
+1. Boat
+————————
+
+- builder
+- build year
+- engine manufacturer
+- engine hp
+- engine description
+- engine year
+- length
+- guest capacity (max number of people that are allowed to sail on board)
+- number of bedrooms
+- number of bathrooms
+- weight
+- color
+- type (sail, motor, etc)
+- amenities
+	- shower
+	- toilets
+	- drinking water
+	- fridge
+	- tv
+	- internet
+	- navigation systems
+	- (MORE TO BE ADDED HERE)
+
+- registered in what state
+- location on map 
+- marina location 
+
+- pictures
+- owner
+- description 
+- restrictions
+	- smoking
+	- shoes type (e.g. white soles only?)
+	- kids
+	- number of guests
+- captains
+	- required captain?
+	- preferred captains?
+	- blacklist captains?
+- reviews
+	- by user
+	- average rating
+- calendar 
+	- availability
+	- price for each available day
+- insurance status
+	- uninsured? (needs insurance)
+	- insured for set amount of outings (e.g. 10)
+	- insured for a time period (e.g. 1 year)
+	- insurance info (may duplicate boat info)
+	- (MORE TO BE ADDED HERE)
+
+
+2. Captain
+—————————————
+- user information (same as a regular user + extra info bellow)
+- extra pictures
+- description
+- license type (can he take people out?)
+- license size restrictions (e.g. can drive boats up to 50ft) 
+- license other restrictions (e.g. can’t drive at night)
+- map location 
+- boats
+	- required boat(s) (i.e. he is only interested in driving specific boats)
+- reviews
+	- by user
+	- average rating
+- calendar 
+	- availability
+	- price for each available day
+
+
+3. User
+—————————————
+- name
+	- first 
+	- middle )opt)
+	- last
+- birthdate (opt)
+- address
+	- address1 (# + street)
+	- address2 (apt # or other)
+	- state
+	- city
+	- zip code
+	- country
+- contact info 
+	- phone numbers
+		- mobile
+		- home
+	- email addresses
+- occupation (opt)
+- income (opt)
+- sailing experience 
+- description 
+
+
+
+
+
