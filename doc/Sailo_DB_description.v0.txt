@@ -1,7 +1,7 @@
-﻿SAILO - test database
+SAILO - test database
 =====================
 
-1. Boat Special
+1. Boat
 ————————
 
 - builder
