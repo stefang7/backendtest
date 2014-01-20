@@ -1,4 +1,4 @@
-﻿SAILO - test database
+SAILO - test database
 =====================
 
 1. Boat
