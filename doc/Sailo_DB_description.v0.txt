@@ -84,7 +84,7 @@ SAILO - test database
 —————————————
 - name
 	- first 
-	- middle )opt)
+	- middle (opt)
 	- last
 - birthdate (opt)
 - address
@@ -105,7 +105,11 @@ SAILO - test database
 - description 
 - pictures 
 	- thumbnails
+- reviews
 
+
+4. Transaction
+------------------
 
 
 
