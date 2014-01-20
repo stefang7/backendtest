@@ -17,6 +17,11 @@ SAILO - test database
 - weight
 - color
 - type (sail, motor, etc)
+- name
+- height
+- min_height ( when the mast of cabin is lowered - usefull when going under bridges )
+- draught
+- autonomy (hours/days)
 - amenities
 	- shower
 	- toilets
@@ -66,8 +71,7 @@ SAILO - test database
 - license size restrictions (e.g. can drive boats up to 50ft) 
 - license other restrictions (e.g. can’t drive at night)
 - map location 
-- boats
-	- required boat(s) (i.e. he is only interested in driving specific boats)
+- radius of availability (can work on all boats included in the area with center at location and this radius)
 - reviews
 	- by user
 	- average rating
@@ -99,6 +103,8 @@ SAILO - test database
 - income (opt)
 - sailing experience 
 - description 
+- pictures 
+	- thumbnails
 
 
 
