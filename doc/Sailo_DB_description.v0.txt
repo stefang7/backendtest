@@ -1,15 +1,17 @@
-SAILO - test database
+SAILO - DB; v:1.0
 =====================
 
 1. Boat Test in github
 ————————
-
-- builder
+- boat name
+- builder (manufacturer)
+- model
 - build year
 - engine manufacturer
-- engine hp
+- engine hp (for each engine)
 - engine description
 - engine year
+- top speed
 - length
 - guest capacity (max number of people that are allowed to sail on board)
 - number of bedrooms
@@ -22,6 +24,7 @@ SAILO - test database
 - min_height ( when the mast of cabin is lowered - usefull when going under bridges )
 - draught
 - autonomy (hours/days)
+- autonomy (mi or km)
 - amenities
 	- shower
 	- toilets
@@ -37,6 +40,12 @@ SAILO - test database
 - marina location 
 
 - pictures
+	- full 
+	- full size 1
+	- full size 2
+	- thumbnails size 1
+	- thumbnails size 2
+	- thumbnails size 3
 - owner
 - description 
 - restrictions
@@ -59,8 +68,9 @@ SAILO - test database
 	- insured for set amount of outings (e.g. 10)
 	- insured for a time period (e.g. 1 year)
 	- insurance info (may duplicate boat info)
-	- (MORE TO BE ADDED HERE)
-
+- response stats:
+	- average rate (percentage)
+	- average time (percentage)
 
 2. Captain
 —————————————
@@ -78,7 +88,18 @@ SAILO - test database
 - calendar 
 	- availability
 	- price for each available day
-
+- boat requests response stats:
+	- total requests
+	- total responses
+	- total time to respond
+	- average rate (percentage)
+	- average time (percentage)
+- boat info response stats (info about the boat or other info)
+	- total requests
+	- total responses
+	- total time to respond
+	- average rate (percentage)
+	- average time (percentage)
 
 3. User
 —————————————
@@ -86,6 +107,7 @@ SAILO - test database
 	- first 
 	- middle (opt)
 	- last
+- corporate name 
 - birthdate (opt)
 - address
 	- address1 (# + street)
@@ -99,18 +121,165 @@ SAILO - test database
 		- mobile
 		- home
 	- email addresses
+	- fax
 - occupation (opt)
 - income (opt)
 - sailing experience 
 - description 
 - pictures 
-	- thumbnails
+	- full 
+	- full size 1
+	- full size 2
+	- thumbnails size 1
+	- thumbnails size 2
+	- thumbnails size 3
 - reviews
 
 
 4. Transaction
 ------------------
+- boat id
+- owner approval status: 
+	- requested
+		- date/time
+		- max resonse time
+	- approved
+		- date/time
+	- no response (max reponse time expired)
+	- rejected 
+		- date/time
+		- reason
+	- cahnges requested
+		- issues to be solved
+- captain id
+- captain approval status: 
+	- requested
+		- date/time
+		- max resonse time
+	- approved
+		- date/time
+	- no response (max reponse time expired)
+	- rejected 
+		- date/time
+		- reason
+	- cahnges requested
+		- issues to be solved
+- price
+	- boat
+	- captain
+	- insurance
+	- sailo comission
+- dates
+	- start date
+	- end date
+- details
+	- instructions
+	- restrictions
+	- other info 
+- status: 
+	- initiated
+	- cancelled
+	- missing info (from user?) 
+	- awaiting approval 
+	- approved 
+	- rejected
+	- money on hold
+	- money cashed
+	- pending issues
+	- finalized
+- customer service status:
+	- none
+	- issues with boat owner: e.g. no insurance, not there, condition, other
+	- issues with captain: e.g. insurance, time there, attitude, other
+	- issues with renter: e.g. info needed, verification needed, late there, smoking on boat
+	- insurance event: e.g. boat damage
+- money status 
+	- no money
+	- on hold
+	- received 
+	- disbursed: to owner, captain, sailo
+	- deposit: returned, used
+	- type: credit card, paypal?
+	- all done
 
 
+5. Insurance request
+--------------------
+- date
+- referred by
+- boat name
+- client info
+	- name
+	- corporate name
+	- address
+	- date of birth
+	- city
+	- state
+	- zip
+	- fax
+	- phone
+	- email
+- vessel description
+	- year
+	- length
+	- manufacturer
+	- model
+	- engine
+		- year
+		- hp (each)
+		- manufacturer
+		- top speed
+	- material: fg, wood, aluminum, steel, other
+	- engines: single, twin, triple
+	- fuel: gas, diesel
+	- built in systems: co2, halon, none
+	- navigation systems: vhf, radar, auto pilot, depth finder, gps, ssb, weather fax, plotter
+- coverage requested
+	- navigation limits
+	- mooring location 
+	- intended use: personal, charter
+	- charter description: 
+		- number of guests
+		- crew
+		- number of charters
+		- other details
+	- hull id or doc#
+	- registered
+	- purchase price
+	- date of purchase
+	- insurance value
+	- liability limit
+	- dinghy/tender
+	- paid crew (f/t & p/t)
+	- date last survey
+	- surveyor
+	- market value
+	- replacement value
+- operator information 
+	- occupation 
+	- previous boats owned/operated
+	- boating courses: uscg, usps, asa, usgs license, other
+	- any losses ever???
+		- year, value, description
+	- client age
+	- years ownership experience
+	- previous insurance co. 
+	- expiration date
+	- expiraiton premium
+	- loss payee
+	- additional insured
+	- comments
+
+
+Communication:
+--------------------
+- owner/captain
+	- my boats
+	- my transactions
+	- my insurances
+	- my messages (communication with customers)
+- user 
+	- my transactions
+	- my messages (communication with owners/captains)
 
 
